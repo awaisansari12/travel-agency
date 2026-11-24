@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WanderWay | Explore the  new world </title>
+  <meta name="description" content="Discover beautiful destinations and plan your next adventure with WanderWay Travel Agency.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Wander<span>Way.</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation" aria-expanded="false"
+        aria-controls="navLinks">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-button">Contact Us</a></li>
+      </ul><ul>REVIWE</ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <p class="eyebrow">YOUR JOURNEY BEGINS HERE NOW</p>
+        <H2>BEST DESTINATION</H2>
+        <h1>Explore the World,<br>One Trip at a Time.</h1>
+        <p class="hero-text">
+          Discover amazing destinations, unforgettable experiences,
+          and adventures that stay with you forever.
+        </p>
+        <div class="hero-actions">
+          <a href="#packages" class="btn btn-primary">Explore Packages ↗</a>
+          <a href="#destinations" class="btn btn-outline">Discover Places</a>
+        </div>
+        <div class="hero-note">✦ Your dream trip is closer than you think.</div>
+      </div>
+    </section>
+
+    <!-- Destinations -->
+    <section class="section container" id="destinations">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FIND YOUR NEXT ADVENTURE Tripe</p>
+          <h2>Popular Destinations</h2>
+        </div>
+        <p>From peaceful beaches to breathtaking mountains, find a place you'll love.</p>
+      </div>
+
+      <div class="destination-grid">
+        <article class="destination-card">
+          <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=900&q=85"
+            alt="Colorful coastal villages in Italy" loading="lazy">
+          <div class="destination-info">
+            <span>ITALY</span>
+            <h3>Amalfi Coast</h3>
+            <p>Coastal beauty & Italian charm</p>
+          </div>
+        </article>
+
+        <article class="destination-card">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85"
+            alt="Beautiful mountain landscape" loading="lazy">
+          <div class="destination-info">
+            <span>SWITZERLAND</span>
+            <h3>Swiss Alps</h3>
+            <p>Mountains, nature & adventure</p>
+          </div>
+        </article>
+
+        <article class="destination-card">
+          <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=85"
+            alt="Modern skyline of Dubai" loading="lazy">
+          <div class="destination-info">
+            <span>UNITED ARAB EMIRATES</span>
+            <h3>Dubai</h3>
+            <p>Luxury, shopping & city life</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Packages -->
+    <section class="section packages-section" id="packages">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">TRAVEL YOUR WAY</p>
+            <h2>Our Best Packages</h2>
+          </div>
+          <p>Thoughtfully planned getaways for every kind of traveler.</p>
+        </div>
+
+        <div class="package-grid">
+          <article class="package-card">
+            <img src="https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=900&q=85"
+              alt="Tropical island getaway" loading="lazy">
+            <div class="package-body">
+              <p class="package-location">✈ BALI, INDONESIA</p>
+              <h3>Tropical Escape</h3>
+              <p>Relax on stunning beaches and discover tropical scenery.</p>
+              <div class="package-meta"><span>◷ 5 Days / 4 Nights</span><span>★ 4.9</span></div>
+              <div class="package-bottom">
+                <p>From <strong>$45000</strong></p>
+                <button class="btn btn-primary book-btn" data-package="Tropical Escape">Book Now ↗</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85"
+              alt="Snow-capped mountain adventure" loading="lazy">
+            <div class="package-body">
+              <p class="package-location">✈ SWITZERLAND</p>
+              <h3>Mountain Adventure</h3>
+              <p>Enjoy spectacular mountain views and scenic trails.</p>
+              <div class="package-meta"><span>◷ 7 Days / 6 Nights</span><span>★ 4.8</span></div>
+              <div class="package-bottom">
+                <p>From <strong>$5000</strong></p>
+                <button class="btn btn-primary book-btn" data-package="Mountain Adventure">Book Now ↗</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=900&q=85"
+              alt="Dubai skyline and modern architecture" loading="lazy">
+            <div class="package-body">
+              <p class="package-location">✈ DUBAI, UAE</p>
+              <h3>Luxury City Tour</h3>
+              <p>Experience iconic attractions, fine dining and city life.</p>
+              <div class="package-meta"><span>◷ 4 Days / 3 Nights</span><span>★ 4.9</span></div>
+              <div class="package-bottom">
+                <p>From <strong>$7999</strong></p>
+                <button class="btn btn-primary book-btn" data-package="Luxury City Tour">Book Now ↗</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section container about-section" id="about">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1100&q=85"
+          alt="Travel essentials and a world map" loading="lazy">
+        <div class="experience-badge">
+          <strong>YOUR</strong>
+          <span>Next Great<br>Adventure</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <p class="eyebrow">A LITTLE ABOUT US</p>
+        <h2>We Make Travel Feel Extraordinary.</h2>
+        <p>
+          At WanderWay, we believe travel is more than visiting places.
+          It's about new experiences, meaningful connections and memories
+          you'll treasure for a lifetime.
+        </p>
+        <div class="benefit"><span>✓</span><div><strong>Personalized Trips</strong><p>Travel plans tailored to your interests.</p></div></div>
+        <div class="benefit"><span>✓</span><div><strong>Carefully Selected Experiences</strong><p>Discover memorable places and activities.</p></div></div>
+        <div class="benefit"><span>✓</span><div><strong>Friendly Travel Support</strong><p>Get help planning your next adventure.</p></div></div>
+        <a href="#contact" class="btn btn-primary">Plan Your Trip ↗</a>
+      </div>
+    </section>
+
+    <!-- Contact and Booking -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-content">
+          <p class="eyebrow">LET'S PLAN SOMETHING AMAZING</p>
+          <h2>Your Next Adventure Starts Here.</h2>
+          <p>Tell us a little about your dream holiday and we'll help you take the next step.</p>
+          <div class="contact-detail"><span>✉</span><div><strong>Email</strong><p>hello@wanderway.example</p></div></div>
+          <div class="contact-detail"><span>⌖</span><div><strong>Our promise</strong><p>Travel planning made simple.</p></div></div>
+        </div>
+
+        <form class="booking-form" id="bookingForm">
+          <h3>Plan Your Trip</h3>
+
+          <label for="fullName">Your Name</label>
+          <input type="text" id="fullName" name="fullName"
+            placeholder="Enter your name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email"
+            placeholder="you@example.com" required>
+
+          <label for="destination">Choose Destination</label>
+          <select id="destination" name="destination" required>
+            <option value="">Select a destination</option>
+            <option value="Bali">Bali, Indonesia</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Dubai">Dubai, UAE</option>
+            <option value="Italy">Italy</option>
+            <option value="Other">Other destination</option>
+          </select>
+
+          <label for="travelDate">Preferred Travel Date</label>
+          <input type="date" id="travelDate" name="travelDate" required>
+
+          <label for="message">Tell Us About Your Trip</label>
+          <textarea id="message" name="message" rows="3"
+            placeholder="Number of travelers, activities, or questions..."></textarea>
+
+          <button type="submit" class="btn btn-primary submit-btn">Send Booking Request ↗</button>
+          <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+          <small>This demo form does not send information to a server.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">Wander<span>Way.</span></a>
+      <p>Collect moments, not just miles.</p>
+      <p>© <span id="year"></span> WanderWay Travel Agency.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
